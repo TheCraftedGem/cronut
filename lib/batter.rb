@@ -1,8 +1,6 @@
 class Batter
   attr_reader :id,
-              :type,
-              :new,
-              :test
+              :type
               
   def initialize(bat)
     @id = bat["id"]

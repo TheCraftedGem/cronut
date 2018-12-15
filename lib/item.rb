@@ -6,7 +6,8 @@ class Item
               :type,
               :name, 
               :ppu,
-              :batters
+              :batters,
+              :toppings
   def initialize(item)
     @id = item["id"]
     @type = item["type"]
